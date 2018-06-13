@@ -1,22 +1,110 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<title>
 		RSA online decrypter
 	</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<style>
+		ul.navi{
+			list-style-type:none; margin:0; padding:0;
+			top:0;
+			left:0;
+			position: fixed;
+			width: 100%;
+			background-color: black;
+
+		}
+		ul li a {display: block; color: #aaa; padding: 12px; text-decoration: none;
+		
+		}
+
+		ul li a:hover {background:#000; color:#fff;
+			transition: all .2s ease-in-out;
+		}
+		ul li {width:100px; float:right; background:#000}
+		h1.index{
+			padding-top: 100px;
+			padding-bottom: 70px;
+			font-size:70px;
+		}
+		body{
+			text-align: center;
+		}
+		div.about{
+			padding-top: 50px;
+			padding-bottom: 100px;
+
+
+		}
+		div.incryptor{
+			padding-top: 50px;
+			padding-bottom: 50px;
+		}
+		div.decryptor{
+			padding-top: 50px;
+			padding-bottom: 50px;
+		}
+		div.contact{
+			padding-top: 50px;
+			padding-bottom: 50px;
+		}
+		div.QA{
+			padding-top: 50px;
+			padding-bottom: 1000px;
+		}
+	</style>
+
 </head>
-
 <body>
-	<ul class="navi">
-	 	<li><a href="#">Q & A</a></li>
-	 	<li><a href="#">contact </a></li>
-	 	<li><a href="#">decryptor </a></li>
-	 	<li><a href="#">incryptor </a></li>
-	</ul>
-	<h1 class="index">RSA online!!</h1>
-	<hr>
-</body>
 
+	<ul class="navi">
+	 <li><a href="#section5">Q & A</a></li>
+	 <li><a href="#section4">contact </a></li>
+	 <li><a href="#section3">decryptor </a></li>
+	 <li><a href="#section2">incryptor </a></li>
+	 <li><a href="#section1">about </a></li>
+	</ul>
+
+	<h1 class="index">RSA online!!</h1>
+
+	<hr>
+	
+	<div class="about" id="section1">
+		<h2>About RSA</h2>
+		<pre>
+RSA는 공개키 암호시스템의 하나로, 암호화뿐만 아니라 전자서명이 가능한 최초의 알고리즘으로 알려져 있다.
+RSA가 갖는 전자서명 기능은 인증을 요구하는 전자 상거래 등에 RSA의 광범위한 활용을 가능하게 하였다.
+
+1978년 로널드 라이베스트(Ron Rivest), 아디 샤미르(Adi Shamir), 레너드 애들먼(Leonard Adleman)의 연구에 의해 체계화되었으며, RSA라는 이름은 이들 3명의 이름 앞글자를 딴 것이다. 
+이 세 발명자는 이 공로로 2002년 튜링상을 수상했다. 그러나 RSA 방식을 제일 먼저 개발한 사람은 영국 GCHQ에 근무하던 수학자였으며, 이보다 빠른 1973년도에 개발하게 된다. 
+이 내용은 GCHQ에서 비밀로 취급되었으며, 이후 1997년 세상으로 발표되게 된다.
+
+RSA 암호체계의 안정성은 큰 숫자를 소인수 분해하는 것이 어렵다는 것에 기반을 두고 있다. 
+그러므로 큰 수의 소인수 분해를 획기적으로 빠르게 할 수 있는 알고리즘이 발견된다면 이 암호 체계는 가치가 떨어질 것이다. 
+1993년 피터 쇼어는 쇼어 알고리즘을 발표하여, 양자 컴퓨터를 이용하여 임의의 정수를 다항 시간 안에 소인수 분해하는 방법을 발표하였다. 
+따라서 양자 컴퓨터가 본격적으로 실용화되면 RSA 알고리즘은 무용지물이 될 것이다. 
+그러나 양자 컴퓨터가 이 정도 수준으로 실용화되려면 아직 여러 해가 더 필요할 것으로 보인다.
+
+RSA 암호화 알고리즘은 1983년에 발명자들이 소속되어 있던 매사추세츠 공과대학교(MIT)에 의해 미국에 특허로 등록되었고, 
+2000년 9월 21일에 그 특허가 만료되었다.
+		</pre>
+	</div>
+
+	<div class="incryptor" id=section2>
+		<h2>RSA incryptor</h2>
+	</div>
+
+	<div class="decryptor" id=section3>
+		<h2>RSA decryptor</h2>
+	</div>
+
+	<div class="contact" id=section4>
+		<h2>contact</h2>
+	</div>
+
+	<div class="QA" id=section5>
+		<h2>Q & A</h2>
+	</div>
+
+</body>
 </html>
