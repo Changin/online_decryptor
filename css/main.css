@@ -1,30 +1,53 @@
-ul.navi {
-	list-style-type: none;
-	margin: 0;
-	padding: 5px;
-	padding-right: 150px;
+*:focus {
+	outline: 0;
+	outline: none;
+}
+ul.navi{
+	list-style-type:none; margin:0; padding:0;
+	top:0;
+	left:0;
+	position: fixed;
+	width: 100%;
+	background-color: black;
+
+}
+ul li a {display: block; color: #aaa; padding: 12px; text-decoration: none;
+
 }
 
-ul li a {
-	display: block;
-	color: #000;
-	padding: 12px;
-	text-decoration: none;
+ul li a:hover {background:#000; color:#fff;
+	transition: all .2s ease-in-out;
 }
-
-ul li a:hover {
-	background:#000;
-	color:#fff;
-}
-
-ul li {
-	width: 100px;
-	float:right;
-	background:#f9f9f9
-}
-
-h1.index {
-	padding-top: 50px;
-	text-align: center;
+ul li {width:100px; float:right; background:#000}
+h1.index{
+	padding-top: 100px;
+	padding-bottom: 70px;
 	font-size:70px;
+	
+}
+body{
+	text-align: center;
+
+}
+div.about{
+	padding-top: 50px;
+	padding-bottom: 100px;
+	font-family: 'Hanna', sans-serif;
+
+}
+div.encryptor{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+div.decryptor{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+div.contact{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+div.QA{
+	padding-top: 50px;
+	padding-bottom: 1000px;
 }
